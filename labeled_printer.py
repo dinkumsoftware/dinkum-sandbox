@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
 # dinkum/sudoku/labeled_printer.py
-''' Has a function, print_labeled_board, which prints a human-readable
-board with all the cell numbers, row numbers, column numbers, and
-block numbers labeled.
-
-Cell values are shown in middle of cell and number of possible_values for
-unsolved cells are shown in lower left of the cell.
-
-It's a rather busy printout, probably only of interest to developers.
-
-Example empty board:
+#diddle: xyzzy Sat 616092
+#diddle: xyzzy Sat 616137
+#diddle: xyzzy Sat 616144
+#diddle: xyzzy Sat 616150
+#diddle: xyzzy Sat 616155
+#diddle: xyzzy Sat 616161
+#diddle: xyzzy Sat 616166
+#diddle: xyzzy Sat 616171
+#diddle: xyzzy Sat 616177
+#diddle: xyzzy Sat 616182
 (with want_cell_nums==True and want_num_possibles==True)
 
      0     1     2      3     4     5      6     7     8     

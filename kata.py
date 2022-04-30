@@ -15,16 +15,16 @@ https://www.codewars.com/kata/hard-sudoku-solver-1
 # 2019-11-07 tc Made Board(None) return empty board
 # 2019-11-23 tc Bug fix in sanity_check()
 # 2019-11-25 tc various bug fixes
-# 2019-11-25 tc move Board/RCB/Cell into own files
-# 2019-11-30 tc trimmed imports
-# 2019-11-30 tc Renamed kata.py
-
-from dinkum.sudoku.board import *
-
-def sudoku_solver(puzzle):
-    ''' return solution to puzzle as a Board
-    raise Exception on no solutions
-    puzzle should be [] of row-lists
+#diddle: xyzzy Sat 539278
+#diddle: xyzzy Sat 539325
+#diddle: xyzzy Sat 539332
+#diddle: xyzzy Sat 539338
+#diddle: xyzzy Sat 539343
+#diddle: xyzzy Sat 539349
+#diddle: xyzzy Sat 539354
+#diddle: xyzzy Sat 539359
+#diddle: xyzzy Sat 539364
+#diddle: xyzzy Sat 539369
     '''
 
     board = Board(puzzle, None, "created by sudoku_solver()")
