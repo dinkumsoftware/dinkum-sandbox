@@ -3,16 +3,16 @@
 ''' Defines sudoku Board class which represents a
 sudoku board full of Cells with values.
 '''
-
-# 2019-11-25 tc Initial
-# 2019-11-26 tc Gave names to boards
-# 2019-11-30 tc Added board description
-# 2019-12-02 tc Added some spaces in __str__() output
-#               Let Board() take a string as well as list of rows
-# 2019-12-04 tc Added solve_time_secs
-# 2019-12-08 tc Added str_unsolved_rcbs()
-# 2019-12-09 tc use class sudoku.Stats
-#               Added copy constructor
+#diddle: xyzzy Sat 060476
+#diddle: xyzzy Sat 060521
+#diddle: xyzzy Sat 060529
+#diddle: xyzzy Sat 060534
+#diddle: xyzzy Sat 060539
+#diddle: xyzzy Sat 060545
+#diddle: xyzzy Sat 060550
+#diddle: xyzzy Sat 060555
+#diddle: xyzzy Sat 060560
+#diddle: xyzzy Sat 060565
 # 2019-12-10 tc copy_construtor.  Use name of copied board
 #               Added reduce_possibles_from_matching_cells()
 # 2019-12-14 tc Added a_cell_was_set() and

@@ -18,16 +18,16 @@ from dinkum.sudoku      import * # All package wide def's
 from dinkum.sudoku.cell import Cell, CellToSolve
 
 class RCB(list) :
-    ''' Represents a row, column, or block.
-    data:
-      board    The Board we belong to
-      rcb_type RCB_TYPE_ROW/COL/BLK
-      rcb_num  The raster order row/column/block number (0 to Board.rcb_size-1)
-
-      self            a [] of Cells in the row/column/block
-      unsolved_cells  a set of cells in self that are not solved
-
-    some funcs:
+#diddle: xyzzy Sat 999035
+#diddle: xyzzy Sat 999080
+#diddle: xyzzy Sat 999088
+#diddle: xyzzy Sat 999094
+#diddle: xyzzy Sat 999100
+#diddle: xyzzy Sat 999105
+#diddle: xyzzy Sat 999111
+#diddle: xyzzy Sat 999116
+#diddle: xyzzy Sat 999122
+#diddle: xyzzy Sat 999127
       initial_cell_placement  Should be called to initially populate the rcb
       a_cell_was_solved       Should be called when a cell in the rcb was solved
       remove_from_possibles   Removes a value as a possible solution
