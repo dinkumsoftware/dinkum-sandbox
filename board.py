@@ -26,6 +26,7 @@ sudoku board full of Cells with values.
 #                             use RCB.build_unsolved_cell_possibles()
 #                             when needed.
 # 2020-02-01 tc Went to exhaustive trials
+# 2022-04-30 tc dinkum-sandbox, just some test stuff
 
 from dinkum.sudoku.rcb   import *
 from dinkum.sudoku.cell  import *
@@ -1488,3 +1489,4 @@ if __name__ == "__main__" :
     unittest.main()
     
 
+# End of the file is here.
