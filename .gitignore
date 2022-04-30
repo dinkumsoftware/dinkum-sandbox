@@ -1,0 +1,23 @@
+# 2019-05-01 tc Ignore python object files
+# 2019-11-02 tc Ignore TAGS
+# 2019-11-20 tc Ignore eclipse "state files"
+#               No longer ignore TAGS as PTAGS under git control
+# 2021-08-15 tc ignore backup files #<whatever>#
+# 
+
+# Python
+*.pyc
+__pycache__
+
+# Various backup files
+*~
+\#*\#
+
+
+# Eclipse "state" files
+.project
+.pydevproject
+
+
+
+
