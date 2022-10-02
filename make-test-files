@@ -1,0 +1,8 @@
+#!/bin/bash
+date > test-staged
+git add test-staged
+
+date >> test-modified
+
+date > not-in-git
+
